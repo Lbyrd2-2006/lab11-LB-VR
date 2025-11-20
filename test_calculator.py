@@ -29,12 +29,12 @@ class TestCalculator(unittest.TestCase):
         self.assertEqual(div(2, 10), 5)
         self.assertAlmostEqual(div(3.5, 7), 2.0)
         with self.assertRaises(ZeroDivisionError):
-            div(5, 0)
+            div(0, 5)
 
     ######## Partner 2
     def test_divide_by_zero(self):  # 1 assertion
         with self.assertRaises(ZeroDivisionError):
-            div(5, 0)
+            div(0, 5)
 
     def test_logarithm(self):  # 3 assertions
         self.assertEqual(logarithm(1000, 10), 3)
