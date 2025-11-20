@@ -1,3 +1,8 @@
+# https://github.com/Lbyrd2-2006/lab11-LB-VR
+# Partner 1: <YOUR-PARTNER-NAME-HERE>
+# Partner 2: <YOUR-NAME-HERE>
+
+
 """
 calculator.py
 - Defines functions used to create a simple calculator
