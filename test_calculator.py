@@ -1,9 +1,13 @@
+# https://github.com/Lbyrd2-2006/lab11-LB-VR
+# Partner 1: <YOUR-PARTNER-NAME-HERE>
+# Partner 2: <YOUR-NAME-HERE>
+
+
 import unittest
 import math
 from calculator import *
 
-# Partner 1: Logan
-# Partner 2: Vitor R
+
 
 class TestCalculator(unittest.TestCase):
     ######### Partner 2
