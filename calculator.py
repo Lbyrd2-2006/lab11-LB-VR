@@ -22,9 +22,9 @@ def mul(a, b):
     return a * b
 
 def div(a, b):
-    if b == 0:
+    if a == 0:
         raise ZeroDivisionError("Cannot divide by zero")
-    return a / b  # swap to match test expectations
+    return b / a  # swap to match test expectations
 
 def logarithm(value, base):
     if value <= 0:
